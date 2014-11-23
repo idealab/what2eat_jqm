@@ -1,0 +1,363 @@
+/**********************************
+**  Global styles
+**
+**  border-color:               #dfdfdf
+**  base-bg-color:              #eee
+**  top-bg-color:               #fefefe
+**  list-margin-top-bottom:     10px
+**  list-padding-left-right:    10px
+**  list-padding-top-bottom:    15px
+**  list-font-size-paragraph:   .8em
+***********************************/
+.ui-content {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.ui-inline-block {
+    /*display: inline-block !important;*/
+}
+
+.ui-listview {
+    box-shadow: none;
+    border: 0;
+    border-radius: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.bg-color-gray {
+    background-color: #eee !important;
+}
+
+.ui-li-text-middle {
+    line-height: 1em;
+    height: 1em;
+}
+
+.ui-header {
+    border: 0;
+}
+
+.ui-bar-a ul {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .26);
+    border-width: 0;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.ui-bar-a li {
+    border-right: 1px;
+}
+
+.ui-bar-a li .ui-btn {
+    border-width: 0;
+    border-radius: 0;
+    background-color: #58B073 !important;
+}
+
+.ui-bar-a li .ui-btn:hover {
+    background-color: #40AB61;
+    text-shadow: none;
+}
+
+.ui-footerbar-left {
+    display: block;
+    float: left;
+    width: 55%;
+}
+
+.fa-outer-border {
+    padding: 8px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 7px;
+}
+/**********************************
+**  Styles for list with common list view
+***********************************/
+.ui-text-listview-header {
+    padding: 10px 0 10px 10px;
+    border-top: 1px solid #dfdfdf;
+    margin-top: 10px;
+    color: #666;
+    background-color: #FEFEFE;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.ui-listview {
+    background-color: #FEFEFE;
+}
+
+.ui-listview > li {
+    padding: 15px 10px !important;
+    border-bottom: 1px solid #dfdfdf;
+    overflow: hidden;
+    background-color: #FEFEFE;
+}
+
+li.ui-first-child {
+    border-top: 1px solid #dfdfdf;
+}
+
+.ui-listview > li .ui-btn {
+    padding: 0;
+    margin: 0;
+    border: 0 !important;
+    background-color: #FEFEFE !important;
+}
+
+.ui-listview > li > .ui-btn img {
+    max-width: 100% !important;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ui-listview > li > .ui-btn footer {
+    margin: 0;
+    padding: .7em 1em;
+    padding-bottom: .4em;
+    color: #666;
+    background-color: #FEFEFE;
+    text-align: left;
+    text-shadow: 0 /*{a-page-shadow-x}*/ 1px /*{a-page-shadow-y}*/ 0 /*{a-page-shadow-radius}*/ #f3f3f3 /*{a-page-shadow-color}*/;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/**********************************
+**  Footer styles
+***********************************/
+.ui-footer {
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, .26);
+    border-top: 1px solid #dfdfdf;
+}
+
+.ui-footer .ui-btn {
+    display: block;
+    margin: 0;
+    border: 0;
+}
+
+.footer-empty {
+    box-shadow: 0 0 0;
+    border: 0;
+    margin: 0;
+}
+
+/**********************************
+**  Text styles
+***********************************/
+.ui-header .ui-text-header {
+    color: rgba(255, 255, 255, .87) !important;
+    font-size: 1.1em !important;
+    font-weight: normal !important;
+    text-shadow: none !important;
+}
+
+.ui-btn-active {
+    text-shadow: none !important;
+    text-decoration: none;
+}
+
+.ui-header .ui-text-menuicon-caption {
+    color: rgba(255, 255, 255, .87) !important;
+    font-weight: normal;
+    text-shadow: none !important;
+}
+
+/* The text style for button "previous page" */
+.ui-header .ui-text-prev-page {
+    text-align: left;
+}
+
+.ui-content .ui-text-subheader {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.ui-content .ui-text-summary-wrapper {
+    padding: 0 10px;
+    border: 1px solid #dfdfdf /*{a-bup-border}*/;
+    margin: 0;
+    margin-bottom: 10px !important;
+    background-color: #FEFEFE;
+}
+
+.ui-content .ui-text-summary-wrapper header {
+    padding-top: 15px;
+    font-weight: bold;
+    background-color: #FEFEFE;
+    color: #666;
+    text-shadow: none;
+}
+
+.ui-content .ui-text-summary-wrapper .ui-text-summary {
+    max-width: 100%;
+    min-height: 3em;
+    padding: 10px 0;
+    margin: 0;
+    background-color: #FEFEFE /*{a-bup-background-color}*/;
+    color: rgba(0, 0, 0, .87);
+    text-shadow: none;
+}
+
+.ui-content .ui-text-summary aside {
+    padding: 0;
+    margin: 10px 0 0;
+    font-size: 0.8em;
+    color: #666;
+}
+
+.ui-content .ui-text-price {
+    text-align: left;
+    color: RED;
+}
+
+.ui-footer .ui-text-footer {
+    color: rgba(0, 0, 0, .87) !important;
+    font-size: 1.1em !important;
+    font-weight: normal !important;
+    text-shadow: none !important;
+}
+
+/**********************************
+**  Image styles
+***********************************/
+img.img-jumbotron {
+    display: block;
+    position: relative !important;
+    margin: 0;
+    max-height: 10em !important;
+    width: 100%;
+}
+
+img.ui-img-thumbnail {
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+img.ui-img-icon {
+
+}
+
+
+/**
+** Style for the images sliding
+**/
+#slides {
+    display: none;
+}
+
+.slider-wrapper {
+    margin: 0 auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .26);
+}
+
+/* For tablets & smart phones */
+@media (max-width: 767px) {
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container {
+        width: auto;
+    }
+}
+
+/* For smartphones */
+@media (max-width: 480px) {
+    .container {
+        width: auto;
+    }
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 768px) and (max-width: 979px) {
+    .container {
+        width: 724px;
+    }
+}
+
+/* For larger displays */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+#slides {
+  display: none
+}
+
+.slidesjs-pagination {
+    margin: 7px 0 0;
+    float: right;
+    list-style: none;
+}
+
+.slidesjs-pagination li {
+    float: left;
+    margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+    display: block;
+    width: 13px;
+    height: 0;
+    padding-top: 13px;
+    background-image: url(../images/pagination.png);
+    background-position: 0 0;
+    float: left;
+    overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+    background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+    background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+    color: #333
+}
+
+#slides a:hover,
+#slides a:active {
+    color: #9e2020
+}
+
+.navbar {
+    overflow: hidden
+}
+
+/**
+** custom icons for the jquery mobile
+**/
+/*.ui-collapsible-heading-toggle {
+    height: 30px;
+    *//*margin: -3px; *//**//*Modify to change icon position wrt the header*//*
+    *//*border: none !important;*//*
+}*/
+.ui-collapsible-content {
+    padding: 0 !important;
+    border: 0 !important;
+}
+
+.ui-collapsible-inset, .ui-collapsible-set {
+    margin: 0 0 0.8em;
+}
+
+.ui-collapsible-search .ui-btn-icon-left {
+    padding-left: 3.5em;
+    margin-top: 0;
+    border-radius: 0;
+}

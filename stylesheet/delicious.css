@@ -1,0 +1,423 @@
+
+.ui-content .sub-navbar-wrapper {
+    padding-top: 10px !important;
+    margin: 0;
+}
+
+.ui-content .sub-navbar {
+    height: 3em;
+    line-height: 3em;
+    padding-left: .6em;
+    border: 1px solid #dfdfdf;
+    border-left: 7px solid #58B073;
+    margin: 0;
+    background-color: #FEFEFE;
+}
+
+/**
+** Style for the jumbotron list as shown in homepage
+**/
+ul.ul-jumbotron {
+    background-color: #eee;
+    margin-top: 10px !important;
+}
+
+.ul-jumbotron > li {
+    padding: 0 !important;
+    margin: 0 0 -1px !important;
+    background-color: #FEFEFE;
+    border: 0;
+}
+
+.ul-jumbotron > li > .ui-btn {
+    padding: 0 !important;
+    border: 0;
+    border-top: 1px solid #dfdfdf !important;
+    border-bottom: 1px solid #dfdfdf !important;
+    background-color: #FEFEFE !important;
+}
+
+.ui-listview > li > .ui-btn .img-jumbotron-wrapper {
+    padding: 0 5px 10px;
+}
+
+/**
+** Style for details list view as shown in recipe/dish pages.
+**/
+.ul-details .li-thumb-wrapper {
+    float: left;
+    position: relative;
+    width: 25%;
+    vertical-align: baseline;
+}
+
+.ul-details .li-details-wrapper {
+    float: left;
+    position: relative;
+    width: 65%;
+    vertical-align: baseline;
+}
+
+.ul-details .li-text-middle:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 0;
+    height: 100%;
+}
+
+.ui-details .li-details-wrapper header {
+    display: inline-block;
+    vertical-align: middle; /* 保证文字垂直居中 */
+}
+
+#dishes_listview .li-details-wrapper p {
+    max-height: 5em !important; /** max height 5em for the description content **/
+    white-space: normal !important;
+    margin-bottom: 0;
+}
+
+.ui-btn-icon-right:after {
+    right: 0.1625em;
+}
+
+#dish_guide_listview .li-details-wrapper header{
+    color: blue;
+}
+
+.ul-details > li header {
+    color: #666;
+    font-weight: bold;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.ul-details > li p {
+    padding-left: 10px;
+    font-size: .8em;
+}
+
+/**
+* Style of the form control of select
+**/
+.ui-content fieldset.container-recipe-select {
+    margin: 10px 0;
+    padding: 0 10px;
+    background-color: #FEFEFE;
+    border: 1px solid #dfdfdf;
+}
+
+.ui-content fieldset.container-recipe-select div.ui-select {
+    margin: 0;
+    padding: 0;
+}
+
+.ui-content fieldset.container-recipe-select div.ui-select a {
+    padding-left: 0;
+    padding-right: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 0 0;
+    text-align: left;
+    color: #333;
+    font-weight: bold;
+}
+
+.ui-listview input[type="checkbox"] {
+    padding: 0 5px;
+    vertical-align: middle;
+}
+
+/**********************************
+**  Styles for list items with form controls, i.e., checkbox, radio, text
+***********************************/
+
+#dish_guide_listview li {
+    padding: 0 10px !important;
+}
+
+#dish_guide_listview .ui-btn .li-details-wrapper {
+    margin: 10% 0;
+}
+
+.ui-listview-formcontrol .ui-checkbox {
+    position: static !important;
+    float: left !important;
+    margin: 0 !important;
+    height: 100%;
+}
+
+.ui-listview-formcontrol .ui-checkbox input[type="checkbox"] {
+    position: absolute;
+    top: 37%;
+    left: .766em !important;
+    margin: 0;
+    margin-left: 4px !important;
+    vertical-align: middle;
+}
+
+.ui-listview-formcontrol li {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.ui-btn-formcontrol {
+    float: left;
+    width: 80%;
+    height: 100%;
+    padding-left: 2.8em;
+}
+
+.ui-btn-formcontrol p {
+    display: inline;
+    margin: 7% 0 !important;
+    overflow: visible !important;
+    color: #333;
+    border: 0;
+}
+
+.ui-btn-formcontrol img {
+    position: static;
+    display: inline;
+    vertical-align: middle;
+}
+
+.ui-btn-formcontrol p {
+    display: inline;
+}
+
+.ui-btn-formcontrol span {
+    display: inline-block;
+}
+
+.ui-btn-formcontrol .li-thumb-wrapper {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background-size: contain;
+}
+
+.thumb-ingredient-01 {
+    background: URL("../images/ingredient_01.jpg") center center no-repeat;
+}
+
+.thumb-ingredient-02 {
+    background: URL("../images/ingredient_02.jpg") center center no-repeat;
+}
+
+.thumb-ingredient-03 {
+    background: URL("../images/ingredient_03.jpg") center center no-repeat;
+}
+
+.thumb-sub-ingredient-01 {
+    background: URL("../images/ingredient_slave_01.JPG") center center no-repeat;
+}
+
+.thumb-sub-ingredient-02 {
+    background: URL("../images/ingredient_slave_02.jpg") center center no-repeat;
+}
+
+.thumb-sub-ingredient-03 {
+    background: URL("../images/ingredient_slave_03.jpg") center center no-repeat;
+}
+
+.ui-listview .text-ingredient-name {
+    width: 30%;
+    padding-left: 5px;
+}
+
+.ui-listview .text-ingredient-weight {
+    width: 10%;
+}
+
+.ui-listview .text-ingredient-instock {
+    width: 20%;
+    text-align: right;
+    color: blue;
+}
+
+.ui-listview > li.ui-li-divider {
+    padding: 8px 10px !important;
+    border-left: 5px solid #58B073;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #eee;
+}
+
+.ui-listview > li.ui-li-divider .ui-text-subheader {
+    color: #333;
+}
+
+/**********************************
+**  Styles for the dishes search form
+***********************************/
+.ui-categories li:not(.ui-li-divider) header{
+    font-weight: normal !important;
+}
+
+.ui-searchform-container {
+
+}
+
+.ui-searchform-title-wrapper {
+    margin-top: 15px;
+    border: 1px solid #dfdfdf;
+    border-left: 5px solid #58B073;
+    border-bottom: 0;
+    padding: 8px 10px;
+    background-color: #FEFEFE;
+}
+
+.ui-searchform-title-wrapper header {
+    padding-left: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.ui-searchform .ui-controlgroup {
+    margin: 0;
+}
+
+.ui-searchform-container .ui-checkbox label {
+    font-size: 1em;
+    font-weight: normal;
+    border-radius: 0;
+    padding-left: 4.3em;
+}
+
+.ui-searchform-container .ui-btn.ui-checkbox-off:after, .ui-btn.ui-checkbox-on:after {
+    margin-left: 1em;
+}
+
+.ui-searchform-container .ui-checkbox {
+    /*margin-left: 2.8em !important;*/
+}
+
+.ui-searchform-submit-btn {
+    margin-top: 0;
+    margin-bottom: 15px;
+    box-shadow: none;
+    border-radius: 0;
+    border: 0;
+}
+
+.ui-searchform-submit-btn a.ui-text-footer {
+    padding: 10px 5px;
+    font-size: 1em !important;
+    font-weight: bold !important;
+    margin: 0 20%;
+    border-radius: 5px;
+}
+
+.ui-head-searchform {
+    border: 0;
+    padding: 1em 0;
+}
+
+.ui-head-searchform .ui-input-search {
+    box-shadow: none;
+    margin: 0 15px;
+    border-radius: 1em;
+}
+
+.ui-head-searchform .ui-input-search .ui-icon-delete {
+    height: 2.2em;
+    top: 0 !important;
+    padding: 0 5px;
+    box-shadow: none !important;
+}
+
+.ui-head-searchform .ui-btn {
+    width: 35%;
+    padding: 10px 15px;
+    margin: 0 auto !important;
+    border-radius: 0 !important;
+    float: center !important;
+    font-size: 1em;
+    box-shadow: 0 1px 1px /*{global-box-shadow-size}*/ rgba(0,0,0,.15) /*{global-box-shadow-color}*/ !important;
+}
+
+.ui-head-searchform .ui-btn:hover {
+    background-color: #f6f6f6 /*{a-bup-background-color}*/ !important;
+}
+
+.ui-head-searchform .ui-controlgroup-controls {
+    width: 100%;
+}
+
+.ui-head-searchform .ui-input-text{
+    float: left;
+    width: 63%;
+    margin: 0 5px;
+}
+
+.ui-head-searchform a {
+    margin: 0 .6em !important;
+    padding: .8em 2em;
+}
+
+.ui-collapsible-search a {
+    padding: 1em 1em 1em 3.5em !important;
+}
+
+.ui-icon-search-dishtype:after {
+    /*background-size: 50px 50px;*/
+    background: url(../images/dishtype_spicy.jpg) center center no-repeat;
+    background-size: cover;
+    width: 42px;
+    height: 42px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-radius: 3px;
+    top: 33%;
+    left: 5px;
+}
+
+.ui-icon-search-people:after {
+    background: url(../images/dishtype_soup.jpg) center center no-repeat;
+    background-size: cover;
+    width: 42px;
+    height: 42px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-radius: 3px;
+    top: 33%;
+    left: 5px;
+}
+
+.ui-icon-search-bodytiaoli:after {
+    background: url(../images/dishtype_jiangzhe.jpg) center center no-repeat;
+    background-size: cover;
+    width: 42px;
+    height: 42px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-radius: 3px;
+    top: 33%;
+    left: 5px;
+}
+
+.ui-icon-search-jibingtiaoli:after {
+    background: url(../images/recipe_01.jpg) center center no-repeat;
+    background-size: cover;
+    width: 42px;
+    height: 42px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-radius: 3px;
+    top: 33%;
+    left: 5px;
+}
+
+.ui-icon-search-diffculty:after {
+    background: url(../images/recipe_02.jpg) center center no-repeat;
+    background-size: cover;
+    width: 42px;
+    height: 42px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-radius: 3px;
+    top: 33%;
+    left: 5px;
+}
